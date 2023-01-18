@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.fordnext.resource_server.ResourceServerApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-16T10:29:37" hostname="MGC1FT2VGH16.chennaigtbc.ford.com" time="0.467">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.fordnext.resource_server.ResourceServerApplicationTests" time="0.467"/>
+  <system-out><![CDATA[15:59:35.179 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [ResourceServerApplicationTests]: using SpringBootContextLoader
+15:59:35.187 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.fordnext.resource_server.ResourceServerApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+15:59:35.187 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.fordnext.resource_server.ResourceServerApplicationTests]: ResourceServerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:59:35.228 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [ResourceServerApplicationTests]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
+15:59:35.336 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/srajar17/Downloads/resource_server/build/classes/java/main/com/fordnext/resource_server/ResourceServerApplication.class]
+15:59:35.341 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.fordnext.resource_server.ResourceServerApplication for test class com.fordnext.resource_server.ResourceServerApplicationTests
+15:59:35.434 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+15:59:35.436 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+15:59:35.440 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [ResourceServerApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+15:59:35.442 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [ResourceServerApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.1)
+
+2023-01-16T15:59:35.855+05:30  INFO 24652 --- [    Test worker] c.f.r.ResourceServerApplicationTests     : Starting ResourceServerApplicationTests using Java 19.0.1 with PID 24652 (started by srajar17 in /Users/srajar17/Downloads/resource_server)
+2023-01-16T15:59:35.863+05:30  INFO 24652 --- [    Test worker] c.f.r.ResourceServerApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2023-01-16T15:59:37.847+05:30  INFO 24652 --- [    Test worker] c.f.r.ResourceServerApplicationTests     : Started ResourceServerApplicationTests in 2.353 seconds (process running for 4.142)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
